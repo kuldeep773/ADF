@@ -1,0 +1,48 @@
+{
+	"name": "DelimitedTextsource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "spotify_weather_data.csv",
+				"container": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Weather",
+				"type": "String"
+			},
+			{
+				"name": "Track Name",
+				"type": "String"
+			},
+			{
+				"name": "Artist",
+				"type": "String"
+			},
+			{
+				"name": "Album",
+				"type": "String"
+			},
+			{
+				"name": "Image",
+				"type": "String"
+			},
+			{
+				"name": "Popularity",
+				"type": "String"
+			}
+		]
+	}
+}
