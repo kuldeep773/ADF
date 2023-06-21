@@ -1,0 +1,9 @@
+{
+	"name": "adf-learning-ci-cd-pipilines-kuldeep",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fd4a79b0-612b-413d-8a83-7bd2064e469f",
+		"tenantId": "920301b6-6635-4f5a-b18e-c221422832a7"
+	}
+}
